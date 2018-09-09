@@ -30,18 +30,18 @@ class CustomTableViewCellTest: XCTestCase {
     
     func testPictureImageView() {
         let placeHolderImage = sut.pictureImageView
-        XCTAssertEqual(placeHolderImage.layer.cornerRadius, 20)
+        XCTAssertEqual(placeHolderImage.layer.cornerRadius, 10)
     }
     
     func testTitleLabel() {
         let titleLabel = sut.titleLabel
         XCTAssertEqual(titleLabel.numberOfLines, 0)
-        XCTAssertEqual(titleLabel.font.fontName, "HelveticaNeue")
+        XCTAssertEqual(titleLabel.font.fontName, "verdana")
     }
     
     func testSubTitleLabel() {
         let subTitleLabel = sut.subTitleLabel
         XCTAssertEqual(subTitleLabel.numberOfLines, 0)
-        XCTAssertEqual(subTitleLabel.font.fontName, "HelveticaNeue")
+        XCTAssertEqual(subTitleLabel.font.fontName, "verdana")
     }
 }
