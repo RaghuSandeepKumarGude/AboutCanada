@@ -20,7 +20,7 @@ class customTableViewCell: UITableViewCell {
     let pictureImageView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFit
-        iv.layer.cornerRadius = 20.0
+        iv.layer.cornerRadius = 10.0
         iv.clipsToBounds = true
         return iv
     }()
@@ -28,14 +28,14 @@ class customTableViewCell: UITableViewCell {
     let titleLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
-        label.font = UIFont(name: "HelveticaNeue", size: 16)
+        label.font = UIFont(name: "verdana", size: 16)
         return label
     }()
     
     let subTitleLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
-        label.font = UIFont(name: "HelveticaNeue", size: 14)
+        label.font = UIFont(name: "verdana", size: 14)
         return label
     }()
     
