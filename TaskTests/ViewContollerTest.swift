@@ -67,7 +67,7 @@ class ViewContollerTest: XCTestCase {
         XCTAssertNotNil(tableViewCell.titleLabel)
     }
     
-    func mockDataFromBundle() throws-> NewsFeed? {
+    func mockDataFromBundle() throws-> [News]? {
         var newsData: Data?
         var feed: NewsFeed?
         guard let bundlePath = Bundle.main.url(forResource: "sampleNewsFeed",
@@ -85,6 +85,6 @@ class ViewContollerTest: XCTestCase {
         } catch let error {
             print(error.localizedDescription)
         }
-        return feed
+        return feed?.rows
     }
 }

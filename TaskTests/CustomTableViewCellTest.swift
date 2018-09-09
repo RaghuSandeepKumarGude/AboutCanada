@@ -36,12 +36,12 @@ class CustomTableViewCellTest: XCTestCase {
     func testTitleLabel() {
         let titleLabel = sut.titleLabel
         XCTAssertEqual(titleLabel.numberOfLines, 0)
-        XCTAssertEqual(titleLabel.font.fontName, "verdana")
+        XCTAssertEqual(titleLabel.font.fontName, "Verdana")
     }
     
     func testSubTitleLabel() {
         let subTitleLabel = sut.subTitleLabel
         XCTAssertEqual(subTitleLabel.numberOfLines, 0)
-        XCTAssertEqual(subTitleLabel.font.fontName, "verdana")
+        XCTAssertEqual(subTitleLabel.font.fontName, "Verdana")
     }
 }
