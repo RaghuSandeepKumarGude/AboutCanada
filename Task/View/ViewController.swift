@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 
     let cellIdentifier = "cellIdentifier"
     var refreshControl = UIRefreshControl()
-    var feededData: NewsFeed?
+    var feededData: [News]?
     var tableView: UITableView = {
         let tableView = UITableView()
         tableView.separatorStyle = .singleLine
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     
     func updateView(updatedData: NewsFeed) {
         DispatchQueue.main.async {
-            self.feededData = updatedData
+            self.feededData = updatedData.rows?.filter{$0.deatilDescription != nil || $0.url != nil || $0.title != nil}
             self.title = updatedData.title
             self.tableView.reloadData()
             SVProgressHUD.dismiss()
@@ -82,15 +82,15 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let listOfItems = feededData?.rows?.count else {
+        guard let numberOfRows = feededData?.count else {
             return 0
         }
-        return listOfItems
+        return numberOfRows
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! customTableViewCell
-        guard let data = feededData?.rows?[indexPath.row] else {
+        guard let data = feededData?[indexPath.row] else {
             return cell
         }
 
