@@ -6,7 +6,7 @@ Current Features: Most famous candian news on diff category.
 How to run the application:
 Use git clone the app using: "https://github.com/RaghuSandeepKumarGude/AboutCanada.git" else download the application
 
-#Download dependencies
+# Download dependencies
 
 Run command- carthage update --platform iOS
 
