@@ -1,0 +1,108 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "num_results": 1662,
+    "results": [
+                {
+                "url": "https:\/\/www.nytimes.com\/2018\/08\/19\/us\/asia-argento-assault-jimmy-bennett.html",
+                "adx_keywords": "Argento, Asia;Bennett, Jimmy (1996- );#MeToo Movement;Sex Crimes;Sexual Harassment;Actors and Actresses;Suits and Litigation (Civil);Weinstein, Harvey",
+                "column": null,
+                "section": "U.S.",
+                "byline": "By KIM SEVERSON",
+                "type": "Article",
+                "title": "Asia Argento, a #MeToo Leader, Made a Deal With Her Own Accuser",
+                "abstract": "The actress and director Asia Argento, among the first women to publicly accuse Harvey Weinstein, arranged to pay an actor after he said she sexually assaulted him when he was 17, documents show.",
+                "published_date": "2018-08-19",
+                "source": "The New York Times",
+                "id": 100000006049822,
+                "asset_id": 100000006049822,
+                "views": 1,
+                "des_facet": [
+                              "#METOO MOVEMENT",
+                              "SEXUAL HARASSMENT",
+                              "ACTORS AND ACTRESSES",
+                              "SUITS AND LITIGATION (CIVIL)"
+                              ],
+                "org_facet": [
+                              "SEX CRIMES"
+                              ],
+                "per_facet": [
+                              "ARGENTO, ASIA",
+                              "BENNETT, JIMMY (1996- )",
+                              "WEINSTEIN, HARVEY"
+                              ],
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Asia Argento at the Cannes Film Festival in 2017. At this year\u2019s festival, she gave a speech in which she said Harvey Weinstein had raped her there in 1997.",
+                          "copyright": "Alberto Pizzoli\/Agence France-Presse \u2014 Getty Images",
+                          "approved_for_syndication": 1,
+                          "media-metadata": [
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/00argento1-square320-v2.jpg",
+                                             "format": "square320",
+                                             "height": 320,
+                                             "width": 320
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/00argento1-thumbStandard-v2.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/00argento1-articleInline-v2.jpg",
+                                             "format": "Normal",
+                                             "height": 127,
+                                             "width": 190
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/merlin_128899910_450e97aa-0677-44a9-ba24-fbdb048e00d3-sfSpan.jpg",
+                                             "format": "Large",
+                                             "height": 263,
+                                             "width": 395
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/merlin_128899910_450e97aa-0677-44a9-ba24-fbdb048e00d3-jumbo.jpg",
+                                             "format": "Jumbo",
+                                             "height": 683,
+                                             "width": 1024
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/merlin_128899910_450e97aa-0677-44a9-ba24-fbdb048e00d3-superJumbo.jpg",
+                                             "format": "superJumbo",
+                                             "height": 1365,
+                                             "width": 2048
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/00argento1-square640-v2.jpg",
+                                             "format": "square640",
+                                             "height": 640,
+                                             "width": 640
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/00argento1-thumbLarge-v2.jpg",
+                                             "format": "Large Thumbnail",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/00argento1-mediumThreeByTwo210-v2.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             },
+                                             {
+                                             "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/21\/dining\/00argento1\/00argento1-mediumThreeByTwo440-v2.jpg",
+                                             "format": "mediumThreeByTwo440",
+                                             "height": 293,
+                                             "width": 440
+                                             }
+                                             ]
+                          }
+                          ]
+                }
+                ]
+}
