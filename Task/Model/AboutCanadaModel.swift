@@ -8,8 +8,7 @@
 
 import Foundation
 
-class AboutCanadaModel {
-    
+class AboutCanadaModel: AboutCanadaModelIntractor {
     func fetchUpdatedDetailsAboutCanada(with completionHandler:@escaping NewsFeedCompletionHandler) {
         let apiService = AboutCanadaAPi()
         apiService.popularNews { (data, error) in

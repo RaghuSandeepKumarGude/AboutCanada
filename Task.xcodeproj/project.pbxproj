@@ -9,10 +9,39 @@
 /* Begin PBXBuildFile section */
 		A57E479D2143FFD600F38F0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E479C2143FFD600F38F0E /* AppDelegate.swift */; };
 		A57E479F2143FFD600F38F0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E479E2143FFD600F38F0E /* ViewController.swift */; };
-		A57E47A22143FFD600F38F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E47A02143FFD600F38F0E /* Main.storyboard */; };
 		A57E47A42143FFD600F38F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E47A32143FFD600F38F0E /* Assets.xcassets */; };
 		A57E47A72143FFD600F38F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E47A52143FFD600F38F0E /* LaunchScreen.storyboard */; };
-		A57E47B22143FFD600F38F0E /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47B12143FFD600F38F0E /* TaskTests.swift */; };
+		A57E47BD214403BF00F38F0E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47BC214403BF00F38F0E /* CustomTableViewCell.swift */; };
+		A57E47BF2144053300F38F0E /* AboutCanadaApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47BE2144053300F38F0E /* AboutCanadaApiService.swift */; };
+		A57E47C12144085700F38F0E /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47C02144085700F38F0E /* NewsFeed.swift */; };
+		A57E47C3214408C700F38F0E /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47C2214408C700F38F0E /* News.swift */; };
+		A57E47C82144398F00F38F0E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E47C62144398F00F38F0E /* SDWebImage.framework */; };
+		A57E47C92144398F00F38F0E /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E47C72144398F00F38F0E /* SVProgressHUD.framework */; };
+		A57E47CA214439AC00F38F0E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E47C62144398F00F38F0E /* SDWebImage.framework */; };
+		A57E47CB214439AC00F38F0E /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A57E47C62144398F00F38F0E /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A57E47CC214439AC00F38F0E /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E47C72144398F00F38F0E /* SVProgressHUD.framework */; };
+		A57E47CD214439AC00F38F0E /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A57E47C72144398F00F38F0E /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A57E47D321444EB200F38F0E /* ViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47D221444EB200F38F0E /* ViewExtention.swift */; };
+		A57E47D5214450E300F38F0E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E47D4214450E300F38F0E /* QuartzCore.framework */; };
+		A57E47D8214453E600F38F0E /* AboutCanadaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47D7214453E600F38F0E /* AboutCanadaModel.swift */; };
+		A57E47DA2144540300F38F0E /* AboutCanadaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47D92144540300F38F0E /* AboutCanadaPresenter.swift */; };
+		A57E47DF2144636600F38F0E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47DE2144636600F38F0E /* main.swift */; };
+		A57E47E2214463A000F38F0E /* AppDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47E1214463A000F38F0E /* AppDelegateTest.swift */; };
+		A57E47E421450F1E00F38F0E /* AboutCanadaModelIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47E321450F1E00F38F0E /* AboutCanadaModelIntractor.swift */; };
+		A57E47E621450FAA00F38F0E /* AboutCanadaPresenterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47E521450FAA00F38F0E /* AboutCanadaPresenterable.swift */; };
+		A57E47E82145101E00F38F0E /* AboutCanadaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47E72145101E00F38F0E /* AboutCanadaPresenter.swift */; };
+		A57E47EA2145115200F38F0E /* MockSessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47E92145115200F38F0E /* MockSessionHelper.swift */; };
+		A57E47EC2145115B00F38F0E /* MockUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47EB2145115B00F38F0E /* MockUITableView.swift */; };
+		A57E47EE2145118700F38F0E /* sampleNewsFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = A57E47ED2145118700F38F0E /* sampleNewsFeed.json */; };
+		A57E47F02145124000F38F0E /* MockAboutCanadaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47EF2145124000F38F0E /* MockAboutCanadaPresenter.swift */; };
+		A57E47F2214512B900F38F0E /* MockAboutCanadaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47F1214512B900F38F0E /* MockAboutCanadaModel.swift */; };
+		A57E47F52145145000F38F0E /* AboutCanadaApiServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47F42145145000F38F0E /* AboutCanadaApiServiceTest.swift */; };
+		A57E47F9214517C800F38F0E /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E47F8214517C800F38F0E /* TestingAppDelegate.swift */; };
+		A57E48022145254900F38F0E /* AboutCanadaAPiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E48012145254900F38F0E /* AboutCanadaAPiProtocol.swift */; };
+		A57E4804214525D300F38F0E /* MockAboutCanadaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E4803214525D300F38F0E /* MockAboutCanadaApi.swift */; };
+		A57E48052145282500F38F0E /* sampleNewsFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = A57E47ED2145118700F38F0E /* sampleNewsFeed.json */; };
+		A57E48072145295300F38F0E /* CustomTableViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E48062145295300F38F0E /* CustomTableViewCellTest.swift */; };
+		A57E480921452BD700F38F0E /* ViewContollerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E480821452BD600F38F0E /* ViewContollerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +54,56 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A57E47CE214439AD00F38F0E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A57E47CD214439AC00F38F0E /* SVProgressHUD.framework in Embed Frameworks */,
+				A57E47CB214439AC00F38F0E /* SDWebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A57E47992143FFD600F38F0E /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E479C2143FFD600F38F0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A57E479E2143FFD600F38F0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A57E47A12143FFD600F38F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A57E47A32143FFD600F38F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57E47A62143FFD600F38F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57E47A82143FFD600F38F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57E47AD2143FFD600F38F0E /* TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A57E47B12143FFD600F38F0E /* TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
 		A57E47B32143FFD600F38F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E47BC214403BF00F38F0E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A57E47BE2144053300F38F0E /* AboutCanadaApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaApiService.swift; sourceTree = "<group>"; };
+		A57E47C02144085700F38F0E /* NewsFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		A57E47C2214408C700F38F0E /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		A57E47C62144398F00F38F0E /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		A57E47C72144398F00F38F0E /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		A57E47D221444EB200F38F0E /* ViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtention.swift; sourceTree = "<group>"; };
+		A57E47D4214450E300F38F0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A57E47D7214453E600F38F0E /* AboutCanadaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaModel.swift; sourceTree = "<group>"; };
+		A57E47D92144540300F38F0E /* AboutCanadaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaPresenter.swift; sourceTree = "<group>"; };
+		A57E47DE2144636600F38F0E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A57E47E1214463A000F38F0E /* AppDelegateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTest.swift; sourceTree = "<group>"; };
+		A57E47E321450F1E00F38F0E /* AboutCanadaModelIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaModelIntractor.swift; sourceTree = "<group>"; };
+		A57E47E521450FAA00F38F0E /* AboutCanadaPresenterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaPresenterable.swift; sourceTree = "<group>"; };
+		A57E47E72145101E00F38F0E /* AboutCanadaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaPresenter.swift; sourceTree = "<group>"; };
+		A57E47E92145115200F38F0E /* MockSessionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSessionHelper.swift; sourceTree = "<group>"; };
+		A57E47EB2145115B00F38F0E /* MockUITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUITableView.swift; sourceTree = "<group>"; };
+		A57E47ED2145118700F38F0E /* sampleNewsFeed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleNewsFeed.json; sourceTree = "<group>"; };
+		A57E47EF2145124000F38F0E /* MockAboutCanadaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAboutCanadaPresenter.swift; sourceTree = "<group>"; };
+		A57E47F1214512B900F38F0E /* MockAboutCanadaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAboutCanadaModel.swift; sourceTree = "<group>"; };
+		A57E47F42145145000F38F0E /* AboutCanadaApiServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaApiServiceTest.swift; sourceTree = "<group>"; };
+		A57E47F8214517C800F38F0E /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
+		A57E48012145254900F38F0E /* AboutCanadaAPiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCanadaAPiProtocol.swift; sourceTree = "<group>"; };
+		A57E4803214525D300F38F0E /* MockAboutCanadaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAboutCanadaApi.swift; sourceTree = "<group>"; };
+		A57E48062145295300F38F0E /* CustomTableViewCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellTest.swift; sourceTree = "<group>"; };
+		A57E480821452BD600F38F0E /* ViewContollerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContollerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +111,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57E47D5214450E300F38F0E /* QuartzCore.framework in Frameworks */,
+				A57E47C82144398F00F38F0E /* SDWebImage.framework in Frameworks */,
+				A57E47CA214439AC00F38F0E /* SDWebImage.framework in Frameworks */,
+				A57E47CC214439AC00F38F0E /* SVProgressHUD.framework in Frameworks */,
+				A57E47C92144398F00F38F0E /* SVProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +135,7 @@
 				A57E479B2143FFD600F38F0E /* Task */,
 				A57E47B02143FFD600F38F0E /* TaskTests */,
 				A57E479A2143FFD600F38F0E /* Products */,
+				A57E47C52144398F00F38F0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +151,11 @@
 		A57E479B2143FFD600F38F0E /* Task */ = {
 			isa = PBXGroup;
 			children = (
-				A57E479C2143FFD600F38F0E /* AppDelegate.swift */,
-				A57E479E2143FFD600F38F0E /* ViewController.swift */,
-				A57E47A02143FFD600F38F0E /* Main.storyboard */,
+				A57E47E02144638400F38F0E /* AppDelegate */,
+				A57E47DD214462B600F38F0E /* View */,
+				A57E47DC214462AD00F38F0E /* Model */,
+				A57E47DB214462A000F38F0E /* Presenter */,
+				A57E47D62144530F00F38F0E /* Entity */,
 				A57E47A32143FFD600F38F0E /* Assets.xcassets */,
 				A57E47A52143FFD600F38F0E /* LaunchScreen.storyboard */,
 				A57E47A82143FFD600F38F0E /* Info.plist */,
@@ -90,10 +166,95 @@
 		A57E47B02143FFD600F38F0E /* TaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				A57E47B12143FFD600F38F0E /* TaskTests.swift */,
+				A57E47ED2145118700F38F0E /* sampleNewsFeed.json */,
+				A57E47E1214463A000F38F0E /* AppDelegateTest.swift */,
+				A57E47E72145101E00F38F0E /* AboutCanadaPresenter.swift */,
+				A57E47F42145145000F38F0E /* AboutCanadaApiServiceTest.swift */,
+				A57E48062145295300F38F0E /* CustomTableViewCellTest.swift */,
+				A57E480821452BD600F38F0E /* ViewContollerTest.swift */,
+				A57E47FA214517EB00F38F0E /* TestAppDelegate */,
+				A57E47F32145130C00F38F0E /* MockFiles */,
 				A57E47B32143FFD600F38F0E /* Info.plist */,
 			);
 			path = TaskTests;
+			sourceTree = "<group>";
+		};
+		A57E47C52144398F00F38F0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57E47D4214450E300F38F0E /* QuartzCore.framework */,
+				A57E47C62144398F00F38F0E /* SDWebImage.framework */,
+				A57E47C72144398F00F38F0E /* SVProgressHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A57E47D62144530F00F38F0E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A57E47C02144085700F38F0E /* NewsFeed.swift */,
+				A57E47C2214408C700F38F0E /* News.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A57E47DB214462A000F38F0E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A57E47D92144540300F38F0E /* AboutCanadaPresenter.swift */,
+				A57E47E521450FAA00F38F0E /* AboutCanadaPresenterable.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A57E47DC214462AD00F38F0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A57E47D7214453E600F38F0E /* AboutCanadaModel.swift */,
+				A57E47E321450F1E00F38F0E /* AboutCanadaModelIntractor.swift */,
+				A57E47BE2144053300F38F0E /* AboutCanadaApiService.swift */,
+				A57E48012145254900F38F0E /* AboutCanadaAPiProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A57E47DD214462B600F38F0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A57E479E2143FFD600F38F0E /* ViewController.swift */,
+				A57E47D221444EB200F38F0E /* ViewExtention.swift */,
+				A57E47BC214403BF00F38F0E /* CustomTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A57E47E02144638400F38F0E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A57E479C2143FFD600F38F0E /* AppDelegate.swift */,
+				A57E47DE2144636600F38F0E /* main.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A57E47F32145130C00F38F0E /* MockFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A57E47E92145115200F38F0E /* MockSessionHelper.swift */,
+				A57E47EF2145124000F38F0E /* MockAboutCanadaPresenter.swift */,
+				A57E47F1214512B900F38F0E /* MockAboutCanadaModel.swift */,
+				A57E4803214525D300F38F0E /* MockAboutCanadaApi.swift */,
+				A57E47EB2145115B00F38F0E /* MockUITableView.swift */,
+			);
+			path = MockFiles;
+			sourceTree = "<group>";
+		};
+		A57E47FA214517EB00F38F0E /* TestAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A57E47F8214517C800F38F0E /* TestingAppDelegate.swift */,
+			);
+			path = TestAppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +267,8 @@
 				A57E47952143FFD600F38F0E /* Sources */,
 				A57E47962143FFD600F38F0E /* Frameworks */,
 				A57E47972143FFD600F38F0E /* Resources */,
+				A57E47C42144394200F38F0E /* ShellScript */,
+				A57E47CE214439AD00F38F0E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,7 +342,7 @@
 			files = (
 				A57E47A72143FFD600F38F0E /* LaunchScreen.storyboard in Resources */,
 				A57E47A42143FFD600F38F0E /* Assets.xcassets in Resources */,
-				A57E47A22143FFD600F38F0E /* Main.storyboard in Resources */,
+				A57E48052145282500F38F0E /* sampleNewsFeed.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,18 +350,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57E47EE2145118700F38F0E /* sampleNewsFeed.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A57E47C42144394200F38F0E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A57E47952143FFD600F38F0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57E47C3214408C700F38F0E /* News.swift in Sources */,
+				A57E47BF2144053300F38F0E /* AboutCanadaApiService.swift in Sources */,
+				A57E47BD214403BF00F38F0E /* CustomTableViewCell.swift in Sources */,
+				A57E48022145254900F38F0E /* AboutCanadaAPiProtocol.swift in Sources */,
+				A57E47DA2144540300F38F0E /* AboutCanadaPresenter.swift in Sources */,
+				A57E47D321444EB200F38F0E /* ViewExtention.swift in Sources */,
 				A57E479F2143FFD600F38F0E /* ViewController.swift in Sources */,
+				A57E47DF2144636600F38F0E /* main.swift in Sources */,
+				A57E47D8214453E600F38F0E /* AboutCanadaModel.swift in Sources */,
+				A57E47E621450FAA00F38F0E /* AboutCanadaPresenterable.swift in Sources */,
+				A57E47C12144085700F38F0E /* NewsFeed.swift in Sources */,
 				A57E479D2143FFD600F38F0E /* AppDelegate.swift in Sources */,
+				A57E47E421450F1E00F38F0E /* AboutCanadaModelIntractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57E47B22143FFD600F38F0E /* TaskTests.swift in Sources */,
+				A57E47EA2145115200F38F0E /* MockSessionHelper.swift in Sources */,
+				A57E47F52145145000F38F0E /* AboutCanadaApiServiceTest.swift in Sources */,
+				A57E47F2214512B900F38F0E /* MockAboutCanadaModel.swift in Sources */,
+				A57E480921452BD700F38F0E /* ViewContollerTest.swift in Sources */,
+				A57E47F02145124000F38F0E /* MockAboutCanadaPresenter.swift in Sources */,
+				A57E47E82145101E00F38F0E /* AboutCanadaPresenter.swift in Sources */,
+				A57E4804214525D300F38F0E /* MockAboutCanadaApi.swift in Sources */,
+				A57E48072145295300F38F0E /* CustomTableViewCellTest.swift in Sources */,
+				A57E47F9214517C800F38F0E /* TestingAppDelegate.swift in Sources */,
+				A57E47EC2145115B00F38F0E /* MockUITableView.swift in Sources */,
+				A57E47E2214463A000F38F0E /* AppDelegateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +424,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A57E47A02143FFD600F38F0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A57E47A12143FFD600F38F0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A57E47A52143FFD600F38F0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -359,6 +554,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Task/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,6 +575,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Task/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

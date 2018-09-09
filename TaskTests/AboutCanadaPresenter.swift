@@ -7,3 +7,15 @@
 //
 
 import Foundation
+@testable import Task
+import XCTest
+
+class AboutCanadaPresenterTest: XCTestCase {
+    override func setUp() {
+        super.setUp()
+    }
+    
+    override func tearDown() {
+        super.tearDown()
+    }
+}

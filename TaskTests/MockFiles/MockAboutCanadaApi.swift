@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import XCTest
+@testable import Task
+import UIKit
+
+class MockAboutCanadaApi: AboutCanadaAPiProtocol {
+    var popularNewsCalled = false
+    func popularNews(completion: @escaping NewsFeedCompletionHandler) {
+        popularNewsCalled = true
+    }
+}

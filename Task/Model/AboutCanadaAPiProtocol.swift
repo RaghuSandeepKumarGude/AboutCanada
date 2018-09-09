@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol AboutCanadaAPiProtocol {
+    func popularNews(completion: @escaping NewsFeedCompletionHandler)
+}

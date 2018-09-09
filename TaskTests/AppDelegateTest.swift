@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import NYTimes
+@testable import Task
 import UIKit
 
 class AppDelegateTest: XCTestCase {
@@ -31,9 +31,6 @@ class AppDelegateTest: XCTestCase {
 
         XCTAssertTrue(sut.application(application,
                                       didFinishLaunchingWithOptions: [:]))
-
-        let view = sut.window?.rootViewController as? UINavigationController
-        XCTAssertNotNil(view?.topViewController as? PopularNewsViewController)
     }
 
     func testApplicationWillResignActive() {

@@ -15,7 +15,7 @@ enum FeedError: Error {
 
 typealias  NewsFeedCompletionHandler = (NewsFeed?, Error?) -> Void
 
-class AboutCanadaAPi {
+class AboutCanadaAPi: AboutCanadaAPiProtocol {
     private var session: URLSession
     
     init(session: URLSession) {

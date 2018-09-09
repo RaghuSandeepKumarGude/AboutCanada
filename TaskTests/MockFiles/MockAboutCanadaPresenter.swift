@@ -11,9 +11,9 @@ import XCTest
 @testable import Task
 import UIKit
 
-class MockAboutCanadaPresenter: AboutCanadaPresenterable  {
+class MockAboutCanadaPresenter: AboutCanadaPresenter  {
     var fetchDetailsAboutCanadaCalled = false
-    func fetchDetailsAboutCanada() {
+    override func fetchDetailsAboutCanada() {
         fetchDetailsAboutCanadaCalled = true
     }
 }

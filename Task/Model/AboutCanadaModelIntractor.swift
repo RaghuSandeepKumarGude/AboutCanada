@@ -7,3 +7,6 @@
 //
 
 import Foundation
+protocol  AboutCanadaModelIntractor {
+    func fetchUpdatedDetailsAboutCanada(with completionHandler:@escaping NewsFeedCompletionHandler)
+}

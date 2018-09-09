@@ -14,29 +14,28 @@ class customTableViewCell: UITableViewCell {
     
     let cellView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor.lightGray
         return view
     }()
     
     let pictureImageView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFit
-        iv.layer.cornerRadius = 20
+        iv.layer.cornerRadius = 20.0
+        iv.clipsToBounds = true
         return iv
     }()
     
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 16)
-        label.textColor = UIColor.darkGray
+        label.numberOfLines = 0
+        label.font = UIFont(name: "HelveticaNeue", size: 16)
         return label
     }()
     
     let subTitleLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
-        label.font = UIFont.boldSystemFont(ofSize: 12)
-        label.textColor = UIColor.darkGray
+        label.font = UIFont(name: "HelveticaNeue", size: 14)
         return label
     }()
     
@@ -51,17 +50,46 @@ class customTableViewCell: UITableViewCell {
         cellView.addSubview(titleLabel)
         cellView.addSubview(subTitleLabel)
         
-        cellView.setAnchor(top: topAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor, paddingTop: 4, paddingLeft: 8, paddingBottom: 4, paddingRight: 8)
+        cellView.setAnchor(top: topAnchor,
+                           left: leftAnchor,
+                           bottom: bottomAnchor,
+                           right: rightAnchor,
+                           paddingTop: 0,
+                           paddingLeft: 8,
+                           paddingBottom: 4,
+                           paddingRight: 8)
         
-        
-        pictureImageView.setAnchor(top: nil, left: cellView.leftAnchor, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 8, paddingBottom: 0, paddingRight: 0, width: 50, height: 50)
+        pictureImageView.setAnchor(top: nil,
+                                   left: cellView.leftAnchor,
+                                   bottom: nil,
+                                   right: nil,
+                                   paddingTop: 0,
+                                   paddingLeft: 8,
+                                   paddingBottom: 0,
+                                   paddingRight: 0,
+                                   width: 60,
+                                   height: 60)
         pictureImageView.centerYAnchor.constraint(equalTo: cellView.centerYAnchor).isActive = true
         
-        titleLabel.setAnchor(top: nil, left: pictureImageView.rightAnchor, bottom: nil, right: rightAnchor, paddingTop: 0, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, height: 40)
-        titleLabel.centerYAnchor.constraint(equalTo: pictureImageView.centerYAnchor).isActive = true
+        titleLabel.setAnchor(top: cellView.topAnchor,
+                             left: pictureImageView.rightAnchor,
+                             bottom: nil,
+                             right: cellView.rightAnchor,
+                             paddingTop: 5,
+                             paddingLeft: 10,
+                             paddingBottom: 0,
+                             paddingRight: 5,
+                             height: 30)
         
-        subTitleLabel.setAnchor(top: nil, left: pictureImageView.rightAnchor, bottom: nil, right: rightAnchor, paddingTop: 0, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, height: 40)
-        subTitleLabel.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor).isActive = true
+        subTitleLabel.setAnchor(top: titleLabel.bottomAnchor,
+                                left: pictureImageView.rightAnchor,
+                                bottom: cellView.bottomAnchor,
+                                right: cellView.rightAnchor,
+                                paddingTop: 5,
+                                paddingLeft: 10,
+                                paddingBottom: 5,
+                                paddingRight: 5,
+                                height: 0)
     }
     
     required init?(coder aDecoder: NSCoder) {

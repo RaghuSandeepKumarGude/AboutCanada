@@ -1,0 +1,3 @@
+# Image Cache SDK
+github "rs/SDWebImage"
+github "SVProgressHUD/SVProgressHUD"

@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  NYTimes
+//  Task
 //
 //  Created by Raghu Sandeep on 8/15/18.
 //  Copyright © 2018 Raghu Sandeep. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-let testTarget = "NYTimesTests"
+let testTarget = "TaskTests"
 
 // if Test Delegate is found, use it otherwise use the default App Delegate
 // the Test Delegate is not included as a compile source for the App target

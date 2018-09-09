@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AboutCanadaPresenter {
+class AboutCanadaPresenter: AboutCanadaPresenterable {
     weak var view: ViewController?
     var model: AboutCanadaModel?
     

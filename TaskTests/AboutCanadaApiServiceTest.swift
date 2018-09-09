@@ -7,3 +7,32 @@
 //
 
 import Foundation
+@testable import Task
+import XCTest
+
+class AboutCanadaApiServiceTest: XCTestCase {
+    var sut: AboutCanadaAPi!
+    var mockSession: MockSessionHelper.MockDataSession!
+    
+    override func setUp() {
+        super.setUp()
+        mockSession = MockSessionHelper.MockDataSession()
+        sut = AboutCanadaAPi(session: mockSession)
+    }
+
+    override func tearDown() {
+        sut = nil
+        mockSession = nil
+        super.tearDown()
+    }
+    
+    func testPopularNews() {
+        let expection = self.expectation(description: "testPopularNews")
+        sut.popularNews { feededData, err in
+            XCTAssertEqual(feededData?.title, "About Canada")
+            expection.fulfill()
+        }
+        wait(for: [expection], timeout: 10)
+        XCTAssertTrue(mockSession.dataTaskWithUrlCalled)
+    }
+}
